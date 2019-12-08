@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- Home Page -->
+
+<html>
+<link rel="stylesheet" href="styles.css">
+
+    <head>
+        <title>SPC | Tech Used</title>
+    </head>
+
+    <style type="text/css">
+        .content, .contentImageLeft, .contentImageRight{font-size: 22px;}
+    </style>
+
+    <body>
+
+        <div class="header">
+                <h1>Solar Powered Charging Dock:</h1>
+                <h2>Technology Used</h2>
+        </div>
+        <!-- Navigation Bar -->
+        <div class="navTab">
+            <div class="navbar">
+
+                <a href="index.html">Home</a>
+                <a href="presentations.html">Presentations</a>
+                <a href="about.html">About Us</a>
+                <a href="techUsed.html" class="active">Technology Used</a>
+                <a href="blog.html">Team Blog</a>
+                <a href="docs.html">Documents</a>
+
+            </div>
+        </div>
+
+        <div class="contentImageRight">
+            <h2>ECO-WORTHY Folding PV Solar Panel</h2>
+            <figure>
+                <img src="images/solarPanelProfile.jpg">
+                <figcaption><a target="_blank" href="https://www.amazon.com/ECO-WORTHY-Portable-Folding-Charge-Controller/dp/B00ICE0ES4/ref=asc_df_B00ICE0ES4/?tag=hyprod-20&linkCode=df0&hvadid=343221168684&hvpos=1o1&hvnetw=g&hvrand=1254883605091494755&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9010995&hvtargid=pla-733272997878&psc=1&tag=&ref=&adgrpid=67045469697&hvpone=&hvptwo=&hvadid=343221168684&hvpos=1o1&hvnetw=g&hvrand=1254883605091494755&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9010995&hvtargid=pla-733272997878">ECO-Worthy Folding PV Solar Panel</a></figcaption>
+            </figure>
+            <p>This is the main piece of the project. A relatively basic solar panel that is planned on being put in parallel with several others in order to collect solar energy to charge the power storage and, by extension, the vehicles connected to it. The current idea is to have several of these mounted on a servo motor powered rotation that keeps them pointed as close to perpendicular to the sun at any given time as possible in order to obtain maximum efficiency.</p>
+            <p>One of these was made available at the commencement of the project and since then it has been tested for functionality. It was found to be completely functional, especially given that the day of testing was somewhat overcast. The one thing that has been of concern is that the design isn't incredibly durable, but this isn't expected to be a problem in the future given that the plan is to completely redesign the structure.</p>
+        </div>
+
+        <div class="contentImageRight">
+            <h2>Arduino Mega 2560</h2>
+            <figure>
+                <img src="images/arduinoMega2560.png">
+                <figCaption><a target="_blank" href="https://www.theengineeringprojects.com/2018/06/introduction-to-arduino-mega-2560.html">Arduino Mega 2560 Pinout</a> </figCaption>
+            </figure>
+            <p>The <a target="_blank" href="https://www.theengineeringprojects.com/2018/06/introduction-to-arduino-mega-2560.html">Arduino Mega 2560</a> is going to be the main component for controlling power distribution of the charging dock. Though it's not likely that it will transfer the power throughout the system directly, it will control the system of switches and meters that does.</p>
+            <p>This component is also being used for the locking mechanism that will hold a device in place while its owner/user is gone by controlling an RFID scanner.</p>
+        </div>
+
+        <div class="contentImageRight">
+            <h2>RFID</h2>
+            <figure>
+                <img src="images/RFID_test_compressed.jpg">
+                <figcaption>RFID being tested with Arduino Mega</figcaption>
+            </figure>
+            <p>The current design of the locking mechanism involves using an <a target="_blank" href="https://en.wikipedia.org/wiki/Radio-frequency_identification">RFID</a> scanner. The way this will be implemented is by utilizing the RFID chips that come built into the student ID's provided/obtained by GSU students. These id's are unique to each of the cards.</p>
+            <p>To use the charging station, the student can hold their ID up to the scanner, prompting RFID scanner to obtain their card's number. The microcontroller holds the card's number and waits until the same card is scanned again before releasing the locking mechanism. After the student returns and collects their scooter, the microcontroller deletes the string used to store the number and awaits the next one to be used.</p>
+        </div>
+
+
+        <footer></footer>
+    </body>
+</html>

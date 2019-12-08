@@ -1,0 +1,303 @@
+/* Alphabetized*/
+.blogImage {
+    display: block;
+    width: 20%;
+}
+
+/* Body */
+body {
+    top: 0;
+    color: rgb(56, 56, 56);
+    background-color: white;
+    font-size: 20px;
+    width: auto;
+    padding: 0%;
+    margin: 0%;
+}
+.content {
+    margin-top: 50px;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+.content h2 {
+    margin-bottom: 10px;
+}
+.content p {
+    margin-top: 0px;
+    line-height: 1.5em;
+}
+.content figure {
+    display: block;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+.content figcaption{
+    padding: 0px;
+    margin-left: 125px;
+    font-style: italic;
+    font-size: 16px;
+}
+.content figure img {
+    border: 1px solid black;
+    margin-right: 25px;
+    padding: 0px;
+}
+
+.contentImageRight {
+    margin-top: 50px;
+    margin-left:  125px;
+    margin-right: 125px;
+    margin-bottom: 0px;
+    text-align: justify;
+}
+.contentImageRight img {
+    float: right;
+    width: 600px;
+    margin-left: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+.contentImageRight figure {
+    float: right;
+    margin: 0px;
+	margin-left: 50px;
+    margin-right: 50px;
+    width: 40%;
+}
+.contentImageRight figure img {
+    float: right;
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid black;
+}
+.contentImageRight figure figcaption {
+    padding: 0px;
+    font-style: italic;
+    font-size: 16px;
+}
+.contentImageRight:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contentImageLeft {
+    margin-right: 125px;
+    margin-left:  125px;
+    text-align: justify;
+}
+.contentImageLeft ul li {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.contentImageLeft img {
+    float: left;
+    width: 600px;
+    margin-right: 50px;
+}
+.contentImageLeft figure {
+    float: left;
+    width: 40%;
+    margin: 0px;
+    margin-right: 50px;
+}
+.contentImageLeft figure img {
+    border: 1px solid black;
+    width: 100%;
+}
+.contentImageLeft figure iframe {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.contentImageLeft figure figcaption {
+    padding: 0px;
+    font-style: italic;
+    font-size: 16px;
+}
+.contentImageLeft:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to bottom, white, rgb(97, 97, 97));
+}
+
+/* Header */
+.header {
+    background-image: url("images/solarPanel.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    color: rgb(253, 233, 120);
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    display: inline-block;
+}
+.header h1 {
+    margin-top: 70px;
+    margin-bottom: 0px;
+    margin-left:  125px;
+    margin-right: 125px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, -5px 2.5px 10px rgb(80, 62, 13);
+    font-size: 55px;
+}
+.header h2 {
+    margin-top: 10px;
+    margin-left:  125px;
+    margin-right: 125px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, -5px 2.5px 10px rgb(80, 62, 13);
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+html {
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.indexImage {
+    width: 100%;
+    display: inline-block;
+    text-align: justify;
+}
+.indexImage h2 {
+    margin-right: 0px;
+    padding: 0px;
+}
+.indexImage p {
+    margin-right: 50px;
+    padding: 0px;
+}
+.indexImage iframe {
+    float: left;    
+    margin-left: 125px;
+    margin-right: 25px;
+    border: 1px solid black;
+}
+
+
+/* Navigation Bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    width: auto;
+    margin: 0px;
+    margin-left: 125px;
+    padding: 0px;
+    border-left: 1px solid black;
+}  
+.navbar a {
+    float: left;
+    color: rgb(255, 230, 88);
+    text-align: center;
+    padding: 14px 16px;
+    border-right: 1px solid black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.navbar a.active {
+    background-color: rgb(156, 141, 55);
+    color: black;
+}
+
+.navTab {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 100%;
+    background-color: #333;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.column {
+    float: left;
+    width: 33%;
+}
+.column h3 {
+    text-align: center;
+    margin-left: 6%;
+    margin-right: 0px;
+    margin-top: 0px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.column h2 {
+    margin-left: 125px;
+    margin-right: 10px;
+}
+.column a {
+    margin-left: 125px;
+    margin-right: 25px;
+}
+.column p {
+    margin-left: 6%;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 1.5em;
+    font-size: 20px;
+    line-height: 1.0em;
+}
+.column img {
+    display:block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 90%;
+    border: 1px solid black;
+}
+.column figure img {
+    margin-bottom: 0px;
+    border: 1px solid black;
+}
+.column figure figcaption {
+    padding: 0px;
+    margin: 0px;
+    font-style: italic;
+    font-size: 16px;
+}
+.column iframe {
+    margin-left: 1%;
+    width: 98%;
+}
+  
+  /* Clear floats after the columns */
+.row {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* For embed Google Doc */
+.textBox {
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
