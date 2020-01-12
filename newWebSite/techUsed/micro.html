@@ -83,26 +83,21 @@
   
   <!--Main layout-->
   <h1 style="margin-top: 20px;margin-bottom: 25px;text-align: center;">Tech Used: Computers & Microcontrollers</h1>
-
-
-  <div class="media">
-    <img class="d-flex mr-3" src="../img/raspberryPi.jpg" alt="Image of Raspberry Pi" style="width: 500px;">
-    <div class="media-body">
-      <h5 class="mt-0 font-weight-bold">Raspberry Pi</h5>
+  <div style="overflow: hidden;">
+    <img src="../img/raspberryPi.jpg" class="img-fluid float-left" style="width: 500px;margin-right: 25px;">
+    <h5 class="mt-0 font-weight-bold">Raspberry Pi</h5>
       <p>This is the brain of the dock's functionality. It will be used for the following tasks:</p>
-    <ul>
-      <li>Running python scripts for calculating the 2-axis rotation needed to point the solar panels at the sun.</li>
-      <ul>
-        <li>Library being used is <a href="https://pysolar.readthedocs.io/en/latest/" target="_blank">PySolar</a>, which finds the angles needed using calculations and won't require the internet.</li>
-      </ul>
-      <li>Communicating with any microcontrollers that are being used in the charging dock.</li>
-    </ul>
-    </div>
+      <ul class="float-left">
+        <li>Running python scripts for calculating the 2-axis rotation needed to point the solar panels at the sun.</li>
+        <ul>
+          <li>Library being used is <a href="https://pysolar.readthedocs.io/en/latest/" target="_blank">PySolar</a>, which finds the angles needed using calculations and won't require the internet.</li>
+        </ul>
+        <li>Communicating with any microcontrollers that are being used in the charging dock.</li>
+      </ul>    
   </div>
 
-    <figure class="figure float-left">
-    <img src="../img/unoPinout.jpg" class="figure-img img-fluid z-depth-1" alt="Picture of Solar Panel" style="margin-right: 25px;width: 500px;">
-    </figure>
+  <div style="overflow: hidden;">
+    <img src="../img/unoPinout.jpg" class="img-fluid float-left" style="width: 500px;margin-right: 25px;"">
     <h5 class="mt-0 font-weight-bold">Arduino Uno</h5>
     <p>Up to 4 Arduino Unos may be used in this procedure:</p>
     <ul class="float-left">
