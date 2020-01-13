@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -82,30 +82,35 @@
   <main style="margin-left: 15px;margin-right: 15 px;">
   
   <!--Main layout-->
-  <h1 style="margin-top: 20px;margin-bottom: 25px;text-align: center;">Tech Used: Computers & Microcontrollers</h1>
-  <div style="overflow: hidden;">
-    <img src="../img/raspberryPi.png" class="img-fluid float-left" style="width: 500px;margin-right: 25px;">
-    <h5 class="mt-0 font-weight-bold">Raspberry Pi 3 Model B</h5>
-      <p>This is the brain of the dock's functionality. It will be used for the following tasks:</p>
-      <ul class="float-left">
-        <li>Running python scripts for calculating the 2-axis rotation needed to point the solar panels at the sun.</li>
-        <ul>
-          <li>Library being used is <a href="https://pysolar.readthedocs.io/en/latest/" target="_blank">PySolar</a>, which finds the angles needed using calculations and won't require the internet.</li>
-        </ul>
-        <li>Communicating with any microcontrollers that are being used in the charging dock.</li>
-      </ul>    
-  </div>
+      <h1 style="margin-top: 20px;margin-bottom: 25px;text-align: center;">Tech Used: Computers & Microcontrollers</h1>
 
-  <div style="overflow: hidden;">
-    <img src="../img/unoPinout.jpg" class="img-fluid float-left" style="width: 500px;margin-right: 25px;"">
-    <h5 class="mt-0 font-weight-bold">Arduino Uno</h5>
-    <p>Up to 4 Arduino Unos may be used in this procedure:</p>
-    <ul class="float-left">
-      <li>2 for rotating both axes the solar panel.</li>
-      <li>Another for controlling the flow of current from the solar panels to the battery</li>
-      <li>Another for each charging port, which at the moment is one.</li>
-    </ul>
-  </div>
+      <div class="container">
+          <div class="row">
+              <div class="col"><img src="../img/raspberryPi.png" class="img-fluid" style="width: 500px;margin-right: 25px;"></div>
+              <div class="col" style="margin-top: 35px;">
+                  <h5 class="mt-0 font-weight-bold">Raspberry Pi 3 Model B</h5>
+                  <p>This is the brain of the dock's functionality. It will be used for the following tasks:</p>
+                  <ul class="float-left">
+                      <li>Running python scripts for calculating the 2-axis rotation needed to point the solar panels at the sun.</li>
+                      <ul>
+                          <li>Library being used is <a href="https://pysolar.readthedocs.io/en/latest/" target="_blank">PySolar</a>, which finds the angles needed using calculations and won't require the internet.</li>
+                      </ul>
+                      <li>Communicating with any microcontrollers that are being used in the charging dock.</li>
+                  </ul>
+              </div>
+              <div class="w-100"></div>
+              <div class="col"><img src="../img/unoPinout.jpg" class="img-fluid float-left" style="width: 500px;margin-right: 25px;"></div>
+              <div class="col">
+                  <h5 class="mt-0 font-weight-bold">Arduino Uno</h5>
+                  <p>Up to 4 Arduino Unos may be used in this procedure:</p>
+                  <ul class="float-left">
+                      <li>2 for rotating both axes the solar panel.</li>
+                      <li>Another for controlling the flow of current from the solar panels to the battery</li>
+                      <li>Another for each charging port, which at the moment is one.</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
 
   </main>
 
