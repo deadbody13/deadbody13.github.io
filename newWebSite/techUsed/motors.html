@@ -49,8 +49,8 @@
           <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="SolarPanel.html">Solar Panels</a>
             <a class="dropdown-item" href="micro.html">Computers & Microcontrollers</a>
-            <a class="dropdown-item active" href="RFID.html">RFID<span class="sr-only">(current)</span></a>
-            <a class="dropdown-item" href="motors.html">Motors</a>
+            <a class="dropdown-item" href="RFID.html">RFID</a>
+            <a class="dropdown-item active" href="motors.html">Motors<span class="sr-only">(current)</span></a>
           </div>
         </li>
         <!-- Link -->
@@ -82,19 +82,21 @@
   <!--Main layout-->
   <main>
   
-  <h1 style="margin-top: 20px;margin-bottom: 25px;text-align: center;">Tech Used: RFID</h1>
+  <!--Main layout-->
+      <h1 style="margin-top: 20px;margin-bottom: 25px;text-align: center;">Tech Used: Motors</h1>
 
       <div class="container">
           <div class="row">
               <div class="col-sm-6">
-                  <figure class="figure">
-                      <img src="../img/arduinoRFID.png" class="figure-img img-fluid z-depth-1" alt="Picture of Solar Panel" width="500px">
-                      <figcaption class="figure-caption text-center"><a href="https://randomnerdtutorials.com/security-access-using-mfrc522-rfid-reader-with-arduino/" target="_blank">image source</a></figcaption>
-                  </figure>
+                <figure class="figure">
+                  <img src="../img/actuator.png" class="figure-img img-fluid z-depth-1" alt="Picture of Linear Actuator" width="500px">
+                  <figcaption class="figure-caption text-center"><a href="https://commons.wikimedia.org/wiki/File:Digitcut.png" target="_blank">image source</a></figcaption>
+                </figure>
               </div>
               <div class="col-sm-6">
-                  <h5 class="mt-0 font-weight-bold">Arduino RFID Module</h5>
-                  <p>In this project, we are planning on implementing an optional locking mechanism that uses an RFID scanner and servo motor to keep personal vehicles in place while they are being charged. Items containing RFID tags are found everywhere and many student ID's come with these tags built in. They have lots of information in them but the only thing that will be scannable is the tag's Serial Number, which is enough to act as a key for a personal lock.
+                <h5 class="mt-0 font-weight-bold">Linear Actuator</h5>
+                  <p>Requires 12V and uses PWM to control position.</p>
+                  <p>Will be powered from battery, controlled by arduino, and used to control angle of solar panel to be pointed at sun.</p>
               </div>
           </div>
       </div>
